@@ -4,14 +4,23 @@ import os
 import asyncio
 import logging
 import resend
+from dotenv import load_dotenv
+from pathlib import Path
+
+# Load environment variables
+ROOT_DIR = Path(__file__).parent.parent
+load_dotenv(ROOT_DIR / '.env')
 
 # Configure logging
 logger = logging.getLogger(__name__)
 
-# Initialize Resend
+# Initialize Resend with API key from environment
 resend.api_key = os.environ.get("RESEND_API_KEY")
 SENDER_EMAIL = os.environ.get("SENDER_EMAIL", "onboarding@resend.dev")
 RECIPIENT_EMAIL = os.environ.get("RECIPIENT_EMAIL", "jeeexportsandimports@gmail.com")
+
+# Log configuration (without exposing the full key)
+logger.info(f"Resend configured with sender: {SENDER_EMAIL}, recipient: {RECIPIENT_EMAIL}")
 
 router = APIRouter(prefix="/api/contact", tags=["contact"])
 
