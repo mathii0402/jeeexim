@@ -37,12 +37,12 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-amber-50 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-stone-50 to-white">
       {/* Header */}
-      <section className="bg-gradient-to-r from-amber-800 to-amber-950 text-white py-20">
+      <section className="bg-gradient-to-r from-stone-800 to-stone-950 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold mb-6">Contact Us</h1>
-          <p className="text-xl text-amber-100 max-w-3xl mx-auto">
+          <p className="text-xl text-stone-100 max-w-3xl mx-auto">
             Have questions or ready to place an order? We're here to help.
           </p>
         </div>
@@ -64,15 +64,15 @@ const Contact = () => {
               <div className="space-y-6">
                 <Card className="border-none shadow-md">
                   <CardContent className="p-6 flex items-start gap-4">
-                    <div className="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center flex-shrink-0">
-                      <Phone className="text-amber-800" size={24} />
+                    <div className="w-12 h-12 bg-stone-100 rounded-full flex items-center justify-center flex-shrink-0">
+                      <Phone className="text-stone-800" size={24} />
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-2">Phone</h3>
-                      <a href={`tel:${companyInfo.phone1}`} className="text-gray-600 hover:text-amber-800 transition-colors block">
+                      <a href={`tel:${companyInfo.phone1}`} className="text-gray-600 hover:text-stone-800 transition-colors block">
                         {companyInfo.phone1}
                       </a>
-                      <a href={`tel:${companyInfo.phone2}`} className="text-gray-600 hover:text-amber-800 transition-colors block">
+                      <a href={`tel:${companyInfo.phone2}`} className="text-gray-600 hover:text-stone-800 transition-colors block">
                         {companyInfo.phone2}
                       </a>
                     </div>
@@ -81,12 +81,12 @@ const Contact = () => {
 
                 <Card className="border-none shadow-md">
                   <CardContent className="p-6 flex items-start gap-4">
-                    <div className="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center flex-shrink-0">
-                      <Mail className="text-amber-800" size={24} />
+                    <div className="w-12 h-12 bg-stone-100 rounded-full flex items-center justify-center flex-shrink-0">
+                      <Mail className="text-stone-800" size={24} />
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-2">Email</h3>
-                      <a href={`mailto:${companyInfo.email}`} className="text-gray-600 hover:text-amber-800 transition-colors">
+                      <a href={`mailto:${companyInfo.email}`} className="text-gray-600 hover:text-stone-800 transition-colors">
                         {companyInfo.email}
                       </a>
                     </div>
@@ -95,8 +95,8 @@ const Contact = () => {
 
                 <Card className="border-none shadow-md">
                   <CardContent className="p-6 flex items-start gap-4">
-                    <div className="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center flex-shrink-0">
-                      <MapPin className="text-amber-800" size={24} />
+                    <div className="w-12 h-12 bg-stone-100 rounded-full flex items-center justify-center flex-shrink-0">
+                      <MapPin className="text-stone-800" size={24} />
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-2">Location</h3>
@@ -184,7 +184,7 @@ const Contact = () => {
                     <Button
                       type="submit"
                       disabled={isSubmitting}
-                      className="w-full bg-amber-700 hover:bg-amber-800 text-white py-6 text-lg font-semibold"
+                      className="w-full bg-stone-700 hover:bg-stone-800 text-white py-6 text-lg font-semibold"
                     >
                       {isSubmitting ? "Sending..." : "Send Message"}
                       <Send className="ml-2" size={20} />

@@ -29,10 +29,10 @@ const About = () => {
   return (
     <div className="min-h-screen">
       {/* Header */}
-      <section className="bg-gradient-to-r from-amber-800 to-amber-950 text-white py-20">
+      <section className="bg-gradient-to-r from-stone-800 to-stone-950 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold mb-6">About Us</h1>
-          <p className="text-xl text-amber-100 max-w-3xl mx-auto">
+          <p className="text-xl text-stone-100 max-w-3xl mx-auto">
             Your trusted partner for premium organic vetiver products with a commitment to quality, sustainability, and global excellence.
           </p>
         </div>
@@ -47,7 +47,7 @@ const About = () => {
                 Our Story
               </h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                <span className="font-semibold text-amber-800">{companyInfo.name}</span> was founded with a vision to bring the finest organic vetiver products from India to the world. Our journey began with a deep understanding of vetiver's therapeutic and commercial value across industries like perfumery, aromatherapy, and cosmetics.
+                <span className="font-semibold text-stone-800">{companyInfo.name}</span> was founded with a vision to bring the finest organic vetiver products from India to the world. Our journey began with a deep understanding of vetiver's therapeutic and commercial value across industries like perfumery, aromatherapy, and cosmetics.
               </p>
               <p className="text-gray-600 mb-4 leading-relaxed">
                 Today, we operate our own manufacturing facility at scale, processing premium organic vetiver roots, essential oils, and powder. We've built our foundation on uncompromising quality standards, complete product control, and sustainable sourcing practices.
@@ -68,7 +68,7 @@ const About = () => {
       </section>
 
       {/* Core Values */}
-      <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
+      <section className="py-16 bg-gradient-to-b from-stone-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Core Values</h2>
@@ -82,8 +82,8 @@ const About = () => {
               return (
                 <Card key={index} className="text-center border-none shadow-lg hover:shadow-xl transition-shadow">
                   <CardContent className="p-6">
-                    <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <Icon className="text-amber-800" size={28} />
+                    <div className="w-16 h-16 bg-stone-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <Icon className="text-stone-800" size={28} />
                     </div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">
                       {value.title}
@@ -110,8 +110,8 @@ const About = () => {
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {services.map((service, index) => (
-              <div key={index} className="bg-gradient-to-br from-amber-50 to-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
-                <div className="w-12 h-12 bg-amber-700 rounded-lg flex items-center justify-center mb-4">
+              <div key={index} className="bg-gradient-to-br from-stone-50 to-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+                <div className="w-12 h-12 bg-stone-700 rounded-lg flex items-center justify-center mb-4">
                   <TrendingUp className="text-white" size={24} />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">
@@ -125,11 +125,11 @@ const About = () => {
       </section>
 
       {/* Mission Statement */}
-      <section className="py-16 bg-gradient-to-r from-amber-800 to-amber-950 text-white">
+      <section className="py-16 bg-gradient-to-r from-stone-800 to-stone-950 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Users size={48} className="mx-auto mb-6 text-amber-300" />
           <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
-          <p className="text-xl leading-relaxed text-amber-100">
+          <p className="text-xl leading-relaxed text-stone-100">
             To be the world's most trusted manufacturer of organic vetiver products by maintaining unwavering commitment to quality, sustainability, and customer satisfaction. We aim to bridge the gap between traditional farming practices and modern global markets.
           </p>
         </div>

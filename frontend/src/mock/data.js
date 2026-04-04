@@ -24,7 +24,7 @@ export const products = [
     description: "Cleaned and dried vetiver roots, perfect for cooling, aromatic, and herbal applications.",
     features: ["Cleaned & Dried", "100% Organic", "Premium Quality", "Export Grade"],
     applications: ["Herbal Medicine", "Cooling Applications", "Aromatic Uses", "Traditional Medicine"],
-    image: "https://images.unsplash.com/photo-1714929756975-977b8470f6bd",
+    image: "https://customer-assets.emergentagent.com/job_agri-commerce-14/artifacts/tiwaim7e_image.png",
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ export const products = [
     description: "Finely processed vetiver powder, widely used in skincare formulations and herbal products.",
     features: ["Finely Processed", "Premium Grade", "100% Natural", "Versatile Use"],
     applications: ["Skincare Products", "Herbal Formulations", "Cosmetic Manufacturing", "Traditional Remedies"],
-    image: "https://images.unsplash.com/photo-1534159335360-c1e0e116c444",
+    image: "https://customer-assets.emergentagent.com/job_agri-commerce-14/artifacts/x7g7d0e5_image.png",
   },
 ];
 

@@ -21,7 +21,7 @@ const Home = () => {
       <section
         className="relative h-[600px] flex items-center justify-center bg-cover bg-center"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1667966054415-243ecbfd55f5')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://customer-assets.emergentagent.com/job_agri-commerce-14/artifacts/intylyoh_image.png')`,
         }}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white z-10">
@@ -33,13 +33,13 @@ const Home = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/products">
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-6 text-lg">
+              <Button size="lg" className="bg-stone-700 hover:bg-stone-800 text-white px-8 py-6 text-lg">
                 Explore Products
                 <ArrowRight className="ml-2" size={20} />
               </Button>
             </Link>
             <Link to="/contact">
-              <Button size="lg" variant="outline" className="bg-white/10 backdrop-blur-sm text-white border-white hover:bg-white hover:text-emerald-800 px-8 py-6 text-lg">
+              <Button size="lg" variant="outline" className="bg-white/10 backdrop-blur-sm text-white border-white hover:bg-white hover:text-stone-900 px-8 py-6 text-lg">
                 Get In Touch
               </Button>
             </Link>
@@ -56,13 +56,13 @@ const Home = () => {
                 Who We Are
               </h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                <span className="font-semibold text-amber-800">{companyInfo.name}</span> is a trusted manufacturer of premium organic vetiver products. We specialize in manufacturing 100% pure vetiver roots, essential oils, and powder for global markets.
+                <span className="font-semibold text-stone-800">{companyInfo.name}</span> is a trusted manufacturer of premium organic vetiver products. We specialize in manufacturing 100% pure vetiver roots, essential oils, and powder for global markets.
               </p>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 Our in-house manufacturing facility and commitment to purity, sustainability, and international quality standards ensures that every product meets the highest benchmarks for perfumery, aromatherapy, cosmetics, and herbal applications.
               </p>
               <Link to="/about">
-                <Button className="bg-amber-700 hover:bg-amber-800">
+                <Button className="bg-stone-700 hover:bg-stone-800">
                   Learn More About Us
                   <ArrowRight className="ml-2" size={18} />
                 </Button>
@@ -84,7 +84,7 @@ const Home = () => {
       </section>
 
       {/* Products Section */}
-      <section className="py-20 bg-gradient-to-b from-amber-50 to-white">
+      <section className="py-20 bg-gradient-to-b from-stone-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Products</h2>
@@ -115,8 +115,8 @@ const Home = () => {
               return (
                 <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-shadow">
                   <CardContent className="p-6 text-center">
-                    <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <Icon className="text-amber-800" size={32} />
+                    <div className="w-16 h-16 bg-stone-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <Icon className="text-stone-700" size={32} />
                     </div>
                     <h3 className="text-xl font-semibold text-gray-900 mb-2">
                       {item.title}
@@ -131,14 +131,14 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-amber-800 to-amber-950 text-white">
+      <section className="py-20 bg-gradient-to-r from-stone-800 to-stone-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Partner With Us?</h2>
-          <p className="text-xl mb-8 text-amber-100 max-w-2xl mx-auto">
+          <p className="text-xl mb-8 text-stone-200 max-w-2xl mx-auto">
             Experience the finest organic vetiver products with reliable global delivery and exceptional quality standards.
           </p>
           <Link to="/contact">
-            <Button size="lg" className="bg-white text-amber-900 hover:bg-gray-100 px-8 py-6 text-lg font-semibold">
+            <Button size="lg" className="bg-white text-stone-900 hover:bg-stone-100 px-8 py-6 text-lg font-semibold">
               Contact Us Today
               <ArrowRight className="ml-2" size={20} />
             </Button>

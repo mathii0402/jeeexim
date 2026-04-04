@@ -4,12 +4,12 @@ import { Package, Leaf, Sparkles } from "lucide-react";
 
 const Products = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-amber-50 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-stone-50 to-white">
       {/* Header Section */}
-      <section className="bg-gradient-to-r from-amber-800 to-amber-950 text-white py-20">
+      <section className="bg-gradient-to-r from-stone-800 to-stone-950 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold mb-6">Our Products</h1>
-          <p className="text-xl text-amber-100 max-w-3xl mx-auto">
+          <p className="text-xl text-stone-100 max-w-3xl mx-auto">
             Premium organic vetiver products crafted with nature's finest ingredients, processed with care to maintain purity and potency.
           </p>
         </div>
@@ -27,13 +27,13 @@ const Products = () => {
                 <div className="mt-6 space-y-4">
                   <div className="bg-white p-4 rounded-lg shadow-sm">
                     <h4 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
-                      <Sparkles size={18} className="text-amber-600" />
+                      <Sparkles size={18} className="text-stone-700" />
                       Key Features
                     </h4>
                     <ul className="space-y-1">
                       {product.features.map((feature, index) => (
                         <li key={index} className="text-sm text-gray-600 flex items-center gap-2">
-                          <span className="w-1.5 h-1.5 bg-amber-700 rounded-full"></span>
+                          <span className="w-1.5 h-1.5 bg-stone-700 rounded-full"></span>
                           {feature}
                         </li>
                       ))}
@@ -42,13 +42,13 @@ const Products = () => {
                   
                   <div className="bg-white p-4 rounded-lg shadow-sm">
                     <h4 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
-                      <Package size={18} className="text-amber-700" />
+                      <Package size={18} className="text-stone-700" />
                       Applications
                     </h4>
                     <ul className="space-y-1">
                       {product.applications.map((app, index) => (
                         <li key={index} className="text-sm text-gray-600 flex items-center gap-2">
-                          <span className="w-1.5 h-1.5 bg-amber-700 rounded-full"></span>
+                          <span className="w-1.5 h-1.5 bg-stone-700 rounded-full"></span>
                           {app}
                         </li>
                       ))}
@@ -71,8 +71,8 @@ const Products = () => {
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Leaf className="text-amber-800" size={32} />
+              <div className="w-16 h-16 bg-stone-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Leaf className="text-stone-800" size={32} />
               </div>
               <h3 className="text-xl font-semibold mb-2">100% Organic</h3>
               <p className="text-gray-600 text-sm">
@@ -80,8 +80,8 @@ const Products = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Sparkles className="text-amber-800" size={32} />
+              <div className="w-16 h-16 bg-stone-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Sparkles className="text-stone-800" size={32} />
               </div>
               <h3 className="text-xl font-semibold mb-2">Premium Quality</h3>
               <p className="text-gray-600 text-sm">
@@ -89,8 +89,8 @@ const Products = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Package className="text-amber-800" size={32} />
+              <div className="w-16 h-16 bg-stone-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Package className="text-stone-800" size={32} />
               </div>
               <h3 className="text-xl font-semibold mb-2">Export Ready</h3>
               <p className="text-gray-600 text-sm">
@@ -104,16 +104,16 @@ const Products = () => {
       {/* CTA */}
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gradient-to-r from-amber-700 to-amber-900 rounded-2xl p-8 md:p-12 text-center text-white">
+          <div className="bg-gradient-to-r from-stone-700 to-stone-900 rounded-2xl p-8 md:p-12 text-center text-white">
             <h2 className="text-3xl font-bold mb-4">
               Interested in Bulk Orders?
             </h2>
-            <p className="text-amber-100 mb-6 text-lg">
+            <p className="text-stone-100 mb-6 text-lg">
               Contact us for custom bulk packaging solutions and competitive pricing.
             </p>
             <a
               href="mailto:jeeexportsandimports@gmail.com"
-              className="inline-block bg-white text-amber-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+              className="inline-block bg-white text-stone-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
             >
               Request a Quote
             </a>
