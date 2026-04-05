@@ -41,11 +41,13 @@ const Navbar = () => {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3">
-              <div 
-                className="h-12 w-12 bg-no-repeat bg-contain bg-center"
+              <img 
+                src="https://customer-assets.emergentagent.com/job_agri-commerce-14/artifacts/p95ku085_Gemini_Generated_Image_58gqwi58gqwi58gq%20%281%29.png" 
+                alt="JEE Exports & Imports Logo" 
+                className="h-12 w-auto"
                 style={{
-                  backgroundImage: `url('https://customer-assets.emergentagent.com/job_agri-commerce-14/artifacts/xf7fmxjf_image.png')`,
-                  filter: 'brightness(0) saturate(100%) invert(28%) sepia(18%) saturate(1844%) hue-rotate(356deg) brightness(95%) contrast(93%)',
+                  filter: 'drop-shadow(0 0 0 transparent) contrast(1.2) brightness(0.9)',
+                  imageRendering: 'crisp-edges'
                 }}
               />
               <div className="flex flex-col">

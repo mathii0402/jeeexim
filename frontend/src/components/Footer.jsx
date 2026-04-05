@@ -12,12 +12,14 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div 
-                className="h-10 w-10 bg-no-repeat bg-contain bg-center"
+              <img 
+                src="https://customer-assets.emergentagent.com/job_agri-commerce-14/artifacts/p95ku085_Gemini_Generated_Image_58gqwi58gqwi58gq%20%281%29.png" 
+                alt="JEE Exports & Imports Logo" 
+                className="h-10 w-auto"
                 style={{
-                  backgroundImage: `url('https://customer-assets.emergentagent.com/job_agri-commerce-14/artifacts/xf7fmxjf_image.png')`,
-                  filter: 'brightness(0) invert(1)',
-                  opacity: 0.85
+                  filter: 'brightness(0) invert(1) drop-shadow(0 0 0 transparent)',
+                  opacity: 0.9,
+                  imageRendering: 'crisp-edges'
                 }}
               />
               <h3 className="text-xl font-bold">{companyInfo.name}</h3>
