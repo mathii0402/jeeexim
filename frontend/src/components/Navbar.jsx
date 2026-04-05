@@ -40,7 +40,16 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
-            <Link to="/" className="flex items-center">
+            <Link to="/" className="flex items-center gap-2">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_agri-commerce-14/artifacts/p95ku085_Gemini_Generated_Image_58gqwi58gqwi58gq%20%281%29.png" 
+                alt="JEE Exports & Imports Logo" 
+                className="h-12 w-auto"
+                style={{
+                  filter: 'drop-shadow(0 0 0 transparent) contrast(1.2) brightness(0.9)',
+                  imageRendering: 'crisp-edges'
+                }}
+              />
               <div className="flex flex-col">
                 <span className="text-2xl font-bold text-stone-800">{companyInfo.name}</span>
                 <span className="text-xs text-amber-800 font-medium">Organic Vetiver Manufacturer</span>

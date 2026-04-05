@@ -12,7 +12,16 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Leaf className="text-amber-400" size={28} />
+              <img 
+                src="https://customer-assets.emergentagent.com/job_agri-commerce-14/artifacts/p95ku085_Gemini_Generated_Image_58gqwi58gqwi58gq%20%281%29.png" 
+                alt="JEE Exports & Imports Logo" 
+                className="h-10 w-auto"
+                style={{
+                  filter: 'brightness(0) saturate(100%) invert(58%) sepia(85%) saturate(500%) hue-rotate(360deg) brightness(105%) contrast(95%)',
+                  opacity: 0.95,
+                  imageRendering: 'crisp-edges'
+                }}
+              />
               <h3 className="text-xl font-bold">{companyInfo.name}</h3>
             </div>
             <p className="text-stone-300 mb-4 text-sm leading-relaxed">
