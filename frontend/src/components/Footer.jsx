@@ -11,8 +11,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <Leaf className="text-amber-400" size={28} />
+            <div className="flex items-center gap-3 mb-4">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_agri-commerce-14/artifacts/xf7fmxjf_image.png" 
+                alt="JEE Exports & Imports Logo" 
+                className="h-10 w-auto"
+              />
               <h3 className="text-xl font-bold">{companyInfo.name}</h3>
             </div>
             <p className="text-stone-300 mb-4 text-sm leading-relaxed">
