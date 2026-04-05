@@ -11,14 +11,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
+            <div className="flex items-center gap-2 mb-4">
               <img 
                 src="https://customer-assets.emergentagent.com/job_agri-commerce-14/artifacts/p95ku085_Gemini_Generated_Image_58gqwi58gqwi58gq%20%281%29.png" 
                 alt="JEE Exports & Imports Logo" 
                 className="h-10 w-auto"
                 style={{
-                  filter: 'brightness(0) invert(1) drop-shadow(0 0 0 transparent)',
-                  opacity: 0.9,
+                  filter: 'brightness(0) saturate(100%) invert(58%) sepia(85%) saturate(500%) hue-rotate(360deg) brightness(105%) contrast(95%)',
+                  opacity: 0.95,
                   imageRendering: 'crisp-edges'
                 }}
               />
