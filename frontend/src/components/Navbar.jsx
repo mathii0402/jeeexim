@@ -41,18 +41,13 @@ const Navbar = () => {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3">
-              <div 
-                className="h-12 w-12"
+              <img 
+                src="https://customer-assets.emergentagent.com/job_agri-commerce-14/artifacts/xf7fmxjf_image.png" 
+                alt="JEE Exports & Imports Logo" 
+                className="h-12 w-auto"
                 style={{
-                  WebkitMaskImage: `url('https://customer-assets.emergentagent.com/job_agri-commerce-14/artifacts/xf7fmxjf_image.png')`,
-                  maskImage: `url('https://customer-assets.emergentagent.com/job_agri-commerce-14/artifacts/xf7fmxjf_image.png')`,
-                  WebkitMaskSize: 'contain',
-                  maskSize: 'contain',
-                  WebkitMaskRepeat: 'no-repeat',
-                  maskRepeat: 'no-repeat',
-                  WebkitMaskPosition: 'center',
-                  maskPosition: 'center',
-                  backgroundColor: '#78350f',
+                  filter: 'contrast(2) brightness(0.7) saturate(1.5)',
+                  mixBlendMode: 'darken'
                 }}
               />
               <div className="flex flex-col">
